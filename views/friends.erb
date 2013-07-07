@@ -1,0 +1,10 @@
+These are your friends
+
+<% @list.each do |row| %>
+<%=row['name'] %>
+<%=row['age'] %>
+<%=row['gender'] %>
+<img src ="<%=row['image'] %>" /><hr>
+  <% end %>
+
+
